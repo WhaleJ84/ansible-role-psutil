@@ -1,0 +1,4 @@
+---
+- name: INSTALL | Install psutils via pip module
+  ansible.builtin.pip:
+    name: psutil
